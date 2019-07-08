@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import './style_sheets/main.scss'
 import { Provider } from './context'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Header from './components/shared/Header';
+import PageContent from './components/shared/PageContent';
+
 
 class App extends Component {
   constructor(props){
@@ -13,8 +16,9 @@ class App extends Component {
     return (
       <Provider>
         <Router>
-          <div className="app-container">
-            <h1>ROSS KISER HAS ARRIVED!!!</h1>
+          <div className="app-wrapper">
+            <Route path='/' component={Header} />
+            <Route path='/' component={PageContent} />
           </div>
         </Router>
       </Provider>
