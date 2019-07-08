@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <Provider>
         <Router>
-          <div className="app-container">
+          <div className="app-wrapper">
             <h1>ROSS KISER HAS ARRIVED!!!</h1>
           </div>
         </Router>
