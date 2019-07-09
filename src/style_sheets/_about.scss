@@ -1,0 +1,13 @@
+@import 'variables';
+
+.about-wrapper{
+  height: calc(100vh - 5em);
+  background-color: $blood-red;
+  .art-face{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    bottom: -5rem;
+    right: -32rem;
+  }
+}

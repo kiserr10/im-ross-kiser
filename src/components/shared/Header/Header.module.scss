@@ -1,0 +1,25 @@
+@import '../../../style_sheets/variables';
+
+.wrapper{
+  height: 5rem;
+  width: 100%;
+  background-color: $dark;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18vw;
+  
+  .mainLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+      text-decoration: none;
+      color: $snow;
+      font-size: 1.2rem;
+      font-family: $main-font;
+      font-weight: 100;
+      margin-right: 2em;
+    }
+  }
+}

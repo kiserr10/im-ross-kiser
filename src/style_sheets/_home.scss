@@ -1,0 +1,33 @@
+.home-wrapper{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-family: $main-font;
+  background-image: url('../assets/images/ross_portrait.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-color: $ocean;
+  .hero-image{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 5em);
+
+    // img{
+    //   width: 100%;
+    //   height: auto;
+    // }
+    span:first-child{
+      color: $blood-red;
+    }
+
+    h1{
+      position: absolute;
+      bottom: 20%;
+      left: 18vw;
+      color: $snow;
+      font-size: 9em;
+      line-height: 1em;
+    }
+  }
+}

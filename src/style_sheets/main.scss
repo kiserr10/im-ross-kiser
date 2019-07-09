@@ -1,4 +1,7 @@
 @import 'variables';
+@import 'home';
+@import 'about';
+
 
 *{
   box-sizing: border-box;
@@ -7,8 +10,13 @@
 }   
 
 html{
-  font-size: 16px;
+  font-size: 16px;  
+  height: 100%;
 }
+
+// body{
+//   background-color: $dark-grey;
+// }
 
 ul{
   list-style-type: none;
@@ -26,11 +34,15 @@ h2{
   font-size: 2em;
 }
 
-// .app-wrapper{
-//   margin: 0 10vw;
-// }
-
-
+.app-wrapper{
+  height: 100%;
+  width: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.content-wrapper{
+  height: calc(100vh - 5em);
+}
 
 /* ROUTE TRANSITIONS */
 
@@ -49,7 +61,7 @@ h2{
 }
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 700ms ease-in 700ms ;
+  transition: opacity 500ms ease-in 500ms ;
 }
 .fade-exit {
   opacity: 1;
@@ -57,5 +69,17 @@ h2{
 
 .fade-exit.fade-exit-active {
   opacity: 0;
-  transition: opacity 300ms ease-in;
+  transition: opacity 200ms ease-out;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px){
+  .about-wrapper{
+    .art-face{
+      height: 80%;
+      bottom: -3rem;
+      right: -26rem;
+    }
+  }
 }

@@ -10,22 +10,21 @@ class PageContent extends Component {
   constructor(props){
     super(props);
     this.state = {}
-    this.content = null
   }
 
-  componentDidMount() {
-    window.scrollTo(0,0);
-  }
+  // componentDidMount() {
+  //   window.scrollTo(0, 0);
+  // }
 
   render() {
     return (
       <Consumer>
         {(context) => (
-          <div className="page-content" ref={content => this.content = content}>
+          <div className="content-wrapper">
             <TransitionGroup className="transition-group">
               <CSSTransition
                 key={this.props.location.key}
-                timeout={{ enter: 1400, exit: 300 }}
+                timeout={{ enter: 2000, exit: 2000 }}
                 classNames={'fade'}
               >
                 <section className="route-section">
