@@ -49,7 +49,7 @@ h2{
 }
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 700ms ease-in 700ms ;
+  transition: opacity 500ms ease-in 500ms ;
 }
 .fade-exit {
   opacity: 1;
@@ -57,5 +57,5 @@ h2{
 
 .fade-exit.fade-exit-active {
   opacity: 0;
-  transition: opacity 300ms ease-in;
+  transition: opacity 200ms ease-out;
 }
