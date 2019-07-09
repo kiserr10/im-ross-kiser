@@ -1,0 +1,22 @@
+.home-wrapper{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-family: $main-font;
+  // background-color: $ocean;
+  .hero-image{
+    position: relative;
+    img{
+      width: 100%;
+      height: auto;
+    }
+    h1{
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      color: white;
+      font-size: 9em;
+      line-height: 1em;
+    }
+  }
+}
