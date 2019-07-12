@@ -15,12 +15,21 @@
     margin: 1em 5vw;
     padding-left: 5em;
     width: 50%;
+    height: auto;
     display: flex;
-    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    h1{
+      margin-bottom: 2rem;
+      font-family: $secondary-font;
+      color: $snow;
+    }
     p{
       font-family: $main-font;
       font-weight: 300;
       line-height: 2.3em;
+      font-size: 1.3em;
+      color: $dark;
     }
   }
 }

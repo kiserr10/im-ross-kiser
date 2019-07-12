@@ -4,6 +4,11 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { Consumer } from '../../../context';
 import Home from '../../pages/Home';
 import About from '../../pages/About';
+import Tech from '../../pages/Tech';
+import Music from '../../pages/Music';
+import Graphics from '../../pages/Graphics';
+import Contact from '../../pages/Contact';
+import NotFound from '../../pages/NotFound';
 
 //
 class PageContent extends Component {
@@ -31,6 +36,11 @@ class PageContent extends Component {
                   <Switch location={this.props.location}>
                     <Route exact path='/' component={Home} />  
                     <Route path='/about' component={About} />  
+                    <Route path='/tech' component={Tech} />  
+                    <Route path='/music' component={Music} />  
+                    <Route path='/graphics' component={Graphics} />  
+                    <Route path='/contact' component={Contact} />  
+                    <Route component={NotFound} />  
                   </Switch>
                 </section>
               </CSSTransition>
