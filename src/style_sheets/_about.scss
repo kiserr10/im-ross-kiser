@@ -3,11 +3,24 @@
 .about-wrapper{
   height: calc(100vh - 5em);
   background-color: $blood-red;
+  display: flex;
   .art-face{
     height: 100%;
     width: auto;
     position: absolute;
-    bottom: -5rem;
-    right: -32rem;
+    bottom: -3vw;
+    right: -19vw;
+  }
+  .about-bio{
+    margin: 1em 5vw;
+    padding-left: 5em;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    p{
+      font-family: $main-font;
+      font-weight: 300;
+      line-height: 2.3em;
+    }
   }
 }
