@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'home';
 @import 'about';
+@import 'contact';
 
 
 *{
@@ -13,10 +14,6 @@ html{
   font-size: 16px;  
   height: 100%;
 }
-
-// body{
-//   background-color: $dark-grey;
-// }
 
 ul{
   list-style-type: none;
