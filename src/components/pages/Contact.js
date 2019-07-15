@@ -35,10 +35,10 @@ const Contact = () => {
     <div className="contact-wrapper">
       <h1>friend.</h1>
       <div className="contacts-box">
-        {data.contacts.map((contact) => {
+        {data.contacts.map((contact, i) => {
           return(
-            <div className="contact">
-              {createIcon(contact)}
+            <div key={i} className="contact">
+              <a href={contact.url} target="_blank" rel="noopener noreferrer">{createIcon(contact.name)}</a>
             </div>
           )
         })}
