@@ -8,11 +8,11 @@
   justify-content: space-between;
   padding: 0 18vw;
   
-  .mainLinks{
+  .mainLinks{    
     display: flex;
     justify-content: center;
     align-items: center;
-
+      
     a{
       text-decoration: none;
       color: $snow;
@@ -20,6 +20,41 @@
       font-family: $main-font;
       font-weight: 100;
       margin-right: 2em;
+      position: relative;
+    }
+
+    a:after{
+      content: '';
+      position: absolute;
+      height: .1em;
+      bottom: -.3em;
+      margin: 0 auto;
+      left: 0;
+      width: 0;
+      background-color: $snow;    
+      transition: 2s ease-in-out;
+    }
+
+    a:not(.activeLink):hover:after {
+      width: 100%;
+      background-color: $snow;
+      transition: .5s;
+      }
+
+    a.activeLink:after{
+      content: '';
+      position: absolute;
+      height: .1em;
+      bottom: -.3em;
+      margin: 0 auto;
+      left: 0;
+      width: 0;
+      // opacity: 0;
+      transition: 2s ease-in-out;
+      width: 100%;
+      background-color: $blood-red;
+      transition: .5s;
+      // transition:  background 3s;
     }
   }
 }
