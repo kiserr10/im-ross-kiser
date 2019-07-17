@@ -2,6 +2,9 @@
 @import 'home';
 @import 'about';
 @import 'contact';
+@import 'graphics';
+@import 'tech';
+@import 'music';
 
 
 *{
@@ -13,6 +16,7 @@
 html{
   font-size: 16px;  
   height: 100%;
+  background-color: $dark;
 }
 
 ul{
@@ -58,7 +62,7 @@ h2{
 }
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 500ms ease-in 500ms ;
+  transition: opacity 200ms ease-in;
 }
 .fade-exit {
   opacity: 1;

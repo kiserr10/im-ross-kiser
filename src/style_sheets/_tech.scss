@@ -1,0 +1,9 @@
+.tech-page-container{
+  background-color: $rajah;
+  height: calc(100vh - 5em);
+  padding: 3em 18vw;
+  h1{
+    font-family: $secondary-font;
+    color: $snow;
+  }
+}

@@ -2,7 +2,8 @@
 
 .about-wrapper{
   height: calc(100vh - 5em);
-  background-color: $blood-red;
+  background-color: $jelly;
+  padding: 3em 18vw;
   display: flex;
   .art-face{
     height: 100%;
@@ -12,12 +13,12 @@
     right: -19vw;
   }
   .about-bio{
-    margin: 1em 5vw;
-    padding-left: 5em;
-    width: 50%;
-    height: 30rem;
+    // margin: 1em 5vw;
+    // padding-left: 5em;
+    width: 80%;
+    // height: 30rem;
     display: flex;
-    align-self: center;
+    // align-self: center;
     flex-direction: column;
     h1{
       margin-bottom: 2rem;

@@ -29,7 +29,7 @@ class PageContent extends Component {
             <TransitionGroup className="transition-group">
               <CSSTransition
                 key={this.props.location.key}
-                timeout={{ enter: 2000, exit: 2000 }}
+                timeout={{ enter: 300, exit: 300 }}
                 classNames={'fade'}
               >
                 <section className="route-section">
