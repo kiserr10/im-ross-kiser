@@ -1,4 +1,5 @@
 @import '../../../style_sheets/variables';
+@import '../../../style_sheets/mixins';
 
 .wrapper{
   height: 5rem;
@@ -6,55 +7,28 @@
   background-color: $dark;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 18vw;
+  position: relative;
+
+  .menuIconWrap{
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    left: 3em;
+    transition: 1s ease-in-out;
+  }
+  
+  .openMenuShift{
+    z-index: 99999 !important;
+    left: 10em;
+    transition: 1s ease-in-out;
+  }
   
   .mainLinks{    
     display: flex;
     justify-content: center;
     align-items: center;
-      
-    a{
-      text-decoration: none;
-      color: $snow;
-      font-size: 1.2rem;
-      font-family: $main-font;
-      font-weight: 100;
-      margin-right: 2em;
-      position: relative;
-    }
-
-    a:after{
-      content: '';
-      position: absolute;
-      height: .1em;
-      bottom: -.3em;
-      margin: 0 auto;
-      left: 0;
-      width: 0;
-      background-color: $snow;    
-      transition: 2s ease-in-out;
-    }
-
-    a:not(.activeLink):hover:after {
-      width: 100%;
-      background-color: $snow;
-      transition: .5s;
-      }
-
-    a.activeLink:after{
-      content: '';
-      position: absolute;
-      height: .1em;
-      bottom: -.3em;
-      margin: 0 auto;
-      left: 0;
-      width: 0;
-      // opacity: 0;
-      transition: 2s ease-in-out;
-      width: 100%;
-      background-color: $blood-red;
-      transition: .5s;
-      // transition:  background 3s;
-    }
+    @include menu-links;
   }
 }
