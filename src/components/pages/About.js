@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import portrait from '../../assets/images/ross_face_split.png'
 import data from '../../assets/json/core_content.json';
-import { TimelineLite, Back, Power1 } from 'gsap'
+import { TimelineLite, Back } from 'gsap'
 
 const About = () => {
   let bioRef = useRef(null);
