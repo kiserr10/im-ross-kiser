@@ -4,10 +4,12 @@
   align-items: center;
   font-family: $main-font;
   background-image: url('../assets/images/ross_portrait.png');
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  // background-color: $ocean;
+  background-attachment: fixed;
+  background-color: $dark;
+
   .hero-image{
     position: relative;
     width: 100%;

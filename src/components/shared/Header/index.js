@@ -3,16 +3,17 @@ import { NavLink, withRouter } from 'react-router-dom'
 import styles from './Header.module.scss'
 
 const Header = () => {
+  const { wrapper, mainLinks, activeLink } = styles
   return(
-    <div className={styles.wrapper}>
-      <div className={styles.mainLinks}>
+    <div className={wrapper}>
+      <div className={mainLinks}>
         
-          <NavLink exact={true} to='/' activeClassName={styles.activeLink}>home</NavLink>
-          <NavLink to='/about' activeClassName={styles.activeLink}>about</NavLink>
-          <NavLink to='/tech' activeClassName={styles.activeLink}>tech</NavLink>
-          <NavLink to='/music' activeClassName={styles.activeLink}>music</NavLink>
-          <NavLink to='/graphics' activeClassName={styles.activeLink}>graphics</NavLink>
-          <NavLink to='/contact' activeClassName={styles.activeLink}>contact</NavLink>
+          <NavLink exact={true} to='/' activeClassName={activeLink}>home</NavLink>
+          <NavLink to='/about' activeClassName={activeLink}>about</NavLink>
+          <NavLink to='/tech' activeClassName={activeLink}>tech</NavLink>
+          <NavLink to='/music' activeClassName={activeLink}>music</NavLink>
+          <NavLink to='/graphics' activeClassName={activeLink}>graphics</NavLink>
+          <NavLink to='/contact' activeClassName={activeLink}>contact</NavLink>
         
       </div>
     </div>
