@@ -77,11 +77,35 @@ h2{
 
 
 @media only screen and (max-width: 1024px){
+  .home-wrapper{
+    background-image: url('../assets/images/ross_portrait_crop.png')
+  }
   .about-wrapper{
     .art-face{
       height: 80%;
-      // bottom: -3vh;
-      // right: -26vw;
+      bottom: -3vh;
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+  .home-wrapper{
+    background-image: url('../assets/images/ross_portrait_crop.png')
+  }
+  .about-wrapper{
+    .art-face{
+      height: 78%;
+      bottom: -3vh;
+    }
+  }
+}
+@media only screen and (max-width: 450px){
+  .home-wrapper{
+    background-image: url('../assets/images/ross_portrait_crop.png')
+  }
+  .about-wrapper{
+    .art-face{
+      height: 65%;
+      bottom: -3vh;
     }
   }
 }
