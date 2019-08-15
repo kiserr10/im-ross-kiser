@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import portrait from '../../assets/images/ross_face_split.png'
 import data from '../../assets/json/core_content.json';
-import { TimelineLite, Back } from 'gsap'
+import { TimelineLite, Back, Power1 } from 'gsap'
 
 const About = () => {
   let bioRef = useRef(null);
@@ -13,7 +13,7 @@ const About = () => {
     console.log('fuc');
     tl.from(titleRef, .7, { autoAlpha: 0, x: -200, ease: Back.easeInOut })
       .from(bioRef, .7, { autoAlpha: 0, y: 100, ease: Power1.easeInOut })
-  }, [])
+  }, [tl])
 
 
   return (

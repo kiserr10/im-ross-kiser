@@ -1,5 +1,8 @@
 .tech-page-container{
   background-color: $rajah;
+  background-image: url('../assets/code_bg_light.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
   height: calc(100vh - 5em);
   padding: 3em 18vw;
   h1{

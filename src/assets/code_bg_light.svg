@@ -1,0 +1,113 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1355.26 357.69">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-19, .cls-2, .cls-3, .cls-4, .cls-5, .cls-9 {
+        opacity: 0.05;
+      }
+
+      .cls-1 {
+        font-size: 93.28px;
+        letter-spacing: 0.06em;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-19, .cls-2, .cls-3, .cls-9 {
+        font-family: CourierNewPSMT, Courier New;
+      }
+
+      .cls-2 {
+        font-size: 25.79px;
+        letter-spacing: 0.06em;
+      }
+
+      .cls-3 {
+        font-size: 123.1px;
+        letter-spacing: 0.06em;
+      }
+
+      .cls-5 {
+        font-size: 21.16px;
+        font-family: Courier;
+        letter-spacing: 0.06em;
+      }
+
+      .cls-6 {
+        letter-spacing: 2.4em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        font-size: 30.51px;
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        font-size: 24.12px;
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        font-size: 20.42px;
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        font-size: 149.71px;
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        font-size: 50.84px;
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        font-size: 34.67px;
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        font-size: 29.78px;
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        font-size: 15.11px;
+      }
+
+      .cls-16, .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 1.16em;
+      }
+
+      .cls-19 {
+        font-size: 20.27px;
+        letter-spacing: 0.06em;
+      }
+    </style>
+  </defs>
+  <title>code_bg_light</title>
+  <text class="cls-1" transform="translate(16.9 118.03)">&lt;HTML&gt;</text>
+  <text class="cls-2" transform="translate(249.1 158.31)">&lt;div className={styles.cssGuru}&gt;</text>
+  <text class="cls-3" transform="translate(1102.26 96.71)">CSS</text>
+  <text class="cls-4" x="-9.74" y="-425.62"/>  <text class="cls-5" transform="translate(965.26 132.25) scale(0.97 1)">.ross-container{<tspan class="cls-6" x="0" y="21.16">	</tspan><tspan class="cls-6" x="0" y="42.33">	</tspan><tspan class="cls-7" x="63.49" y="42.33">height: 4.4em;</tspan><tspan class="cls-6" x="0" y="63.49">	</tspan><tspan class="cls-7" x="63.49" y="63.49">color: $color-mode</tspan><tspan class="cls-6" x="0" y="105.82">	</tspan><tspan class="cls-7" x="63.49" y="105.82">&amp;::after{</tspan><tspan class="cls-6" x="0" y="126.98" xml:space="preserve">		</tspan><tspan class="cls-8" x="126.98" y="126.98">content: ‘Developer’</tspan><tspan class="cls-6" x="0" y="148.14">	</tspan><tspan class="cls-7" x="63.49" y="148.14">}</tspan><tspan class="cls-6" x="0" y="169.31">	</tspan><tspan class="cls-7" x="63.49" y="169.31"></tspan><tspan x="0" y="190.47">}</tspan></text>
+  <text class="cls-9" transform="translate(0.26 199.11)">import React, { Component } from ‘react’ </text>
+  <text class="cls-10" transform="translate(285.26 239.04)">app.listen(PORT, () =&gt; {<tspan x="0" y="24.12" xml:space="preserve">  console.log(`Server is Running on Port: ${PORT}`)</tspan><tspan x="0" y="48.23">})</tspan></text>
+  <text class="cls-11" transform="translate(0 314.95)">TweenMax.to(this.el, .7, { autoAlpha: 1, scale: 1 }, “+=.3”)</text>
+  <text class="cls-11" transform="translate(430.94 127.71)">transition: all 1s ease-in-out;</text>
+  <text class="cls-12" transform="translate(786.26 227.63)">JS</text>
+  <text class="cls-13" transform="translate(1049.13 323.13)">res.json()</text>
+  <text class="cls-14" transform="translate(781.29 315.4)">&lt;script&gt;</text>
+  <text class="cls-15" transform="translate(30.98 266.29)">useState()</text>
+  <text class="cls-16" transform="translate(394.27 41.3)">this.state = {<tspan class="cls-17"><tspan x="0" y="15.11">	</tspan><tspan class="cls-18" x="26.64" y="15.11">name: ‘Ross’,</tspan><tspan x="0" y="30.22">	</tspan><tspan class="cls-18" x="26.64" y="30.22">lastName: ‘Kiser’,</tspan><tspan x="0" y="45.33">	</tspan><tspan class="cls-18" x="26.64" y="45.33">superPower: ‘Front End Development’,</tspan><tspan x="0" y="60.44">	</tspan><tspan class="cls-18" x="26.64" y="60.44">secretWeapon: ‘React’</tspan></tspan><tspan x="0" y="75.55">}</tspan></text>
+  <text class="cls-19" transform="translate(4.63 157.87)">&lt;!DOCTYPE html&gt;</text>
+</svg>

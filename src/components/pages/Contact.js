@@ -5,7 +5,7 @@ import { ReactComponent as Facebook } from '../../assets/images/icons/facebook.s
 import { ReactComponent as Instagram } from '../../assets/images/icons/instagram.svg'; 
 import { ReactComponent as Github } from '../../assets/images/icons/github.svg'; 
 import { ReactComponent as LinkedIn } from '../../assets/images/icons/linkedin2.svg'; 
-import { TimelineLite, Power1 } from 'gsap';
+import { TimelineLite, Back } from 'gsap';
 
 const createIcon = (icon) => {
   switch(icon){
@@ -37,7 +37,7 @@ const Contact = () => {
 
   useEffect(() => {
     let tl = new TimelineLite({ delay: .5 })
-    tl.staggerFrom(currentRef, .7, { autoAlpha: 0, y: 200, ease: Power1.easeInOut }, .1, '-=.1')
+    tl.staggerFrom(currentRef, 1, { autoAlpha: 0, y: 200, ease: Back.easeOut.config(1) }, .1, '-=.2')
   })
 
 
