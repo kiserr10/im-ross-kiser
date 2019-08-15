@@ -5,7 +5,7 @@
 @import 'graphics';
 @import 'tech';
 @import 'music';
-
+@import 'mixins';
 
 *{
   box-sizing: border-box;
@@ -43,6 +43,30 @@ h2{
 }
 .content-wrapper{
   height: calc(100vh - 5em);
+
+  .side-menu-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #0A0C0D;
+    opacity: .95;
+    z-index: 1;
+  }
+
+  @include menu-links;
+
+  .open{
+    width: 20em;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+  }
+
+  .closed{
+    width: 0;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+  }
 }
 
 /* ROUTE TRANSITIONS */

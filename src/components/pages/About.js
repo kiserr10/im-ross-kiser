@@ -10,9 +10,11 @@ const About = () => {
 
 
   useEffect(() => {
+    console.log('fuc');
     tl.from(titleRef, .7, { autoAlpha: 0, x: -200, ease: Back.easeInOut })
-      .from(bioRef, .7, { autoAlpha: 0, y: 100, ease: Back.easeInOut }, '-=.4')
-  })
+      .from(bioRef, .7, { autoAlpha: 0, y: 100, ease: Power1.easeInOut })
+  }, [])
+
 
   return (
     <div className="about-wrapper">
