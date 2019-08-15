@@ -9,16 +9,12 @@
     height: 100%;
     width: auto;
     position: absolute;
-    bottom: -3vw;
-    right: -19vw;
+    bottom: -4em;
+    right: 0;
   }
   .about-bio{
-    // margin: 1em 5vw;
-    // padding-left: 5em;
-    width: 80%;
-    // height: 30rem;
+    max-width: 80%;
     display: flex;
-    // align-self: center;
     flex-direction: column;
     h1{
       margin-bottom: 2rem;
