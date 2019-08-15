@@ -6,14 +6,14 @@ import { TimelineLite, Back, Power1 } from 'gsap'
 const About = () => {
   let bioRef = useRef(null);
   let titleRef = useRef(null);
-  let tl = new TimelineLite({ delay: .3 });
+  let tl = new TimelineLite({ delay: .3, paused: true });
 
 
   useEffect(() => {
-    console.log('fuc');
     tl.from(titleRef, .7, { autoAlpha: 0, x: -200, ease: Back.easeInOut })
       .from(bioRef, .7, { autoAlpha: 0, y: 100, ease: Power1.easeInOut })
-  }, [tl])
+      .play()
+  }, [])
 
 
   return (

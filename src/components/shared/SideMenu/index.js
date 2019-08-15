@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
-import { TweenLite } from 'gsap';
+// import { TweenLite } from 'gsap';
 import styles from './SideMenu.module.scss';
 
 

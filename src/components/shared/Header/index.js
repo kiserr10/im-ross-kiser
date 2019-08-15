@@ -3,6 +3,8 @@ import { NavLink, withRouter } from 'react-router-dom'
 import styles from './Header.module.scss'
 import { Context } from '../../../context';
 import BurgerMenu from '../BurgerMenu';
+import SideMenu from '../SideMenu';
+
 
 const Header = () => {
   const store = useContext(Context);
@@ -23,6 +25,9 @@ const Header = () => {
           <NavLink to='/graphics' activeClassName={styles.activeLink}>graphics</NavLink>
           <NavLink to='/contact' activeClassName={styles.activeLink}>contact</NavLink>
       </div>
+      <SideMenu
+        className={store.state.isSideOpen ? "side-menu-container open" : "side-menu-container closed"}
+      />
     </div>
   )
 }
