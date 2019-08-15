@@ -9,7 +9,7 @@ import Music from '../../pages/Music';
 import Graphics from '../../pages/Graphics';
 import Contact from '../../pages/Contact';
 import NotFound from '../../pages/NotFound';
-import SideMenu from '../SideMenu';
+// import SideMenu from '../SideMenu';
 //
 class PageContent extends Component {
   constructor(props){
@@ -45,9 +45,6 @@ class PageContent extends Component {
                 </section>
               </CSSTransition>
             </TransitionGroup>
-            <SideMenu 
-              className={context.state.isSideOpen ? "side-menu-container open" : "side-menu-container closed"}
-            />
             { this.props.children }
           </div>
         )}
