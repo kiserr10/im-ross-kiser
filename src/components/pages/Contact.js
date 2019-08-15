@@ -38,7 +38,7 @@ const Contact = () => {
   useEffect(() => {
     let tl = new TimelineLite({ delay: .5 })
     tl.staggerFrom(currentRef, 1, { autoAlpha: 0, y: 200, ease: Back.easeOut.config(1) }, .1, '-=.2')
-  })
+  }, [])
 
 
   return (
