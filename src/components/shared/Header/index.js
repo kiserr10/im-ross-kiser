@@ -25,9 +25,6 @@ const Header = () => {
           <NavLink to='/graphics' activeClassName={styles.activeLink}>graphics</NavLink>
           <NavLink to='/contact' activeClassName={styles.activeLink}>contact</NavLink>
       </div>
-      <SideMenu
-        className={store.state.isSideOpen ? "side-menu-container open" : "side-menu-container closed"}
-      />
     </div>
   )
 }
