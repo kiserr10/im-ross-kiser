@@ -13,6 +13,7 @@ const About = () => {
     tl.from(titleRef, .7, { autoAlpha: 0, x: -200, ease: Back.easeInOut })
       .from(bioRef, .7, { autoAlpha: 0, y: 100, ease: Power1.easeInOut })
       .play()
+  // eslint-disable-next-line 
   }, [])
 
 

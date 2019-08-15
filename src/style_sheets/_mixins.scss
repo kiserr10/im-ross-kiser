@@ -1,4 +1,10 @@
 @mixin menu-links{
+  li{
+    list-style-type: none;
+    margin: 1em 2em;
+    font-size: 1.4em;
+  }
+  
   a{
     text-decoration: none;
     color: $snow;
