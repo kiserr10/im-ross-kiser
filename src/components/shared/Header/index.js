@@ -3,7 +3,6 @@ import { NavLink, withRouter } from 'react-router-dom'
 import styles from './Header.module.scss'
 import { Context } from '../../../context';
 import BurgerMenu from '../BurgerMenu';
-import SideMenu from '../SideMenu';
 
 
 const Header = () => {
