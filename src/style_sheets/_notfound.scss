@@ -1,0 +1,21 @@
+@import './variables';
+
+.not-found-wrapper{
+  height: calc(100vh - 5em);
+  // background-color: $jelly;
+  padding: 3em 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .animation-wrapper{
+    // height: 100%;  
+    width: 100%;
+
+    svg{
+      fill: none;
+      stroke: $turtle;  
+      stroke-width: .2em;
+    }
+  }
+}

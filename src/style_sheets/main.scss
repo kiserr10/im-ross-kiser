@@ -1,11 +1,13 @@
 @import 'variables';
+@import 'mixins';
 @import 'home';
 @import 'about';
 @import 'contact';
 @import 'graphics';
 @import 'tech';
 @import 'music';
-@import 'mixins';
+@import 'notfound';
+
 
 *{
   box-sizing: border-box;
