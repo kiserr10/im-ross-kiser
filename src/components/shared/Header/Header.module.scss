@@ -15,7 +15,7 @@
     height: 2em;
     width: 2em;
     position: absolute;
-    left: 3em;
+    left: 10vw;
     transition: .5s ease-in-out;
     z-index: 3;
   }
@@ -31,4 +31,14 @@
     align-items: center;
     @include menu-links;
   }
+}
+
+
+@media only screen and (max-width: 450px){
+  .wrapper{
+    padding: 0 1vw;
+    .mainLinks{
+      display: none;
+    }
+  }  
 }

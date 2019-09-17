@@ -40,7 +40,7 @@ h2{
   width: auto;
   overflow-x: hidden;
   overflow-y: hidden;
-}
+} 
 .content-wrapper{
   height: calc(100vh - 5em);
 
@@ -116,6 +116,7 @@ h2{
     background-image: url('../assets/images/ross_portrait_crop.png')
   }
   .about-wrapper{
+    padding: 3em 10vw;
     .art-face{
       height: 78%;
       bottom: -3vh;
@@ -126,10 +127,18 @@ h2{
   .home-wrapper{
     background-image: url('../assets/images/ross_portrait_crop.png')
   }
+
   .about-wrapper{
+    padding: 3em 10vw;
+
+    .about-bio{
+      font-size: 60%;
+      max-width: unset;
+    }
     .art-face{
       height: 65%;
       bottom: -3vh;
     }
   }
+
 }

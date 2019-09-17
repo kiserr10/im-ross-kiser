@@ -23,7 +23,8 @@ const About = () => {
         <h1 ref={element => titleRef = element}>me.</h1>  
         <p ref={element => bioRef = element}>{data.bio}</p>
       </div>
-      <img className="art-face" src={portrait} alt="Ross Abstract Face" />
+      <div className="art-face">
+      </div>
     </div>
   )
 } 

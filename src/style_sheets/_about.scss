@@ -5,22 +5,26 @@
   background-color: $jelly;
   padding: 3em 18vw;
   display: flex;
+  
   .art-face{
-    height: 100%;
-    width: auto;
+    height: 50em;
+    width: 50em;
     position: absolute;
-    bottom: -4em;
+    bottom: 0;
     right: 0;
   }
+  
   .about-bio{
     max-width: 80%;
     display: flex;
     flex-direction: column;
+    
     h1{
       margin-bottom: 2rem;
       font-family: $secondary-font;
       color: $snow;
     }
+    
     p{
       font-family: $main-font;
       font-weight: 300;
