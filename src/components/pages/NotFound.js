@@ -45,12 +45,11 @@ const NotFound = () => {
       //   .to(_DOT_1, 10, { drawSVG: "100%" }, "notfound")
       //   .to(_DOT_2, 10, { drawSVG: "100%" }, "notfound")
       //   .to(_DOT_3, 10, { drawSVG: "100%" }, "notfound")
-      tl.staggerFromTo(refArr, 10, { drawSVG: "0%" }, { drawSVG: "100%" })
+      tl.staggerFromTo(refArr, 5, { drawSVG: "0%" }, { drawSVG: "100%" })
         .set(refArr, { drawSVG: "100%" })
-        .staggerFromTo(refArr, 10, { drawSVG: "100%", stroke: 'red' }, { drawSVG: "50% 50%" })
-        .play()
-    }, 3000)
-  })
+        .staggerFromTo(refArr, 5, { drawSVG: "100%", stroke: '#DB162F' }, { drawSVG: "50% 50%", stroke: '#124E78' })
+    }, 3)
+  }, [])
 
 
   return (
