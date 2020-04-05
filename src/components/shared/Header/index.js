@@ -12,7 +12,10 @@ const Header = () => {
   return(
     <div className={styles.wrapper}>
       <div 
-        className={!store.state.isSideOpen ? styles.menuIconWrap : `${styles.menuIconWrap} ${styles.openMenuShift}` } 
+        className={!store.state.isSideOpen 
+          ? styles.menuIconWrap 
+          : `${styles.menuIconWrap} ${styles.openMenuShift}` 
+        } 
         onClick={store.updateSideBarStatus}
       >
         <BurgerMenu />
@@ -25,6 +28,7 @@ const Header = () => {
           <NavLink to='/graphics' activeClassName={styles.activeLink}>graphics</NavLink>
           <NavLink to='/contact' activeClassName={styles.activeLink}>contact</NavLink>
       </div>
+      <h3 className={styles.mainName}>rk.</h3>
     </div>
   )
 }

@@ -31,4 +31,21 @@
     align-items: center;
     @include menu-links;
   }
+
+  .mainName{
+    color: $snow;
+    font-family: $main-font;
+    display: none;
+  }
+}
+@media only screen and (max-width: 720px){
+  .wrapper{
+    justify-content: flex-end;
+    .mainLinks{
+      display: none;
+    }
+    .mainName{
+      display: unset;
+    }
+  }
 }
